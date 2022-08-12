@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+:root{
+    /* Color Primary */
+    --color1:hsl(257, 40%, 49%);
+    --color2:hsl(300, 69%, 71%);
+    
+    --fontpadrao:'Open Sans', sans-serif;
+}
+
+
+body{
+    font-family: var(--fontpadrao);
+    font-weight: 400;
+    background-image: url('images/bg-desktop.svg');
+    background-color:var(--color1);
+}
