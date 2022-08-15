@@ -56,8 +56,8 @@ body{
 }
 .container__main__box2--buttonsettings{
     padding: 10px 40px;
-    background-color: var(--color2);
-    color: white;
+    background-color:white;
+    color:var(--color1);
     border-radius: 50px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.512);
     cursor: pointer;
@@ -66,7 +66,9 @@ body{
 
 }
 .container__main__box2--buttonsettings:hover{
-    opacity: 0.9;
+    background-color: var(--color2);
+    color: white;
+
 }
 
 .container__footer{
