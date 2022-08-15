@@ -154,17 +154,30 @@ body{
     color: rgba(255, 255, 255, 0.815);
 }
 .container__main__box2--buttonsettings{
+
     padding: 10px 40px;
     background-color:whitesmoke;
     color:var(--color1);
     border-radius: 50px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.512);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.512);
     cursor: pointer;
     transition: 400ms;
+    width: 180px;
 
 
 }
 .container__main__box2--buttonsettings:hover{
     opacity: 0.9;
+}
+.container__footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.attribution{
+    margin-top: 40px;
 }
 }
